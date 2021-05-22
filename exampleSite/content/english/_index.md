@@ -73,7 +73,7 @@ funfacts:
     count: "200"
   testimonial_slider:
   - name: holly
-    image: "/images/forest.jpg"
+    image: "/images/holly.jpg"
     designation: 专属设计师
     content: 一位才华横溢的设计师
   - name: yushuoqi
