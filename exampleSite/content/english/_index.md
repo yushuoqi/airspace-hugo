@@ -72,6 +72,10 @@ funfacts:
     name: Combined Projects
     count: "200"
   testimonial_slider:
+  - name: yushuoqi
+    image: "/images/yushuoqi.jpg"
+    designation: 研发工程师
+    content: 此博客网站的作者，期望成为优秀的全栈工程师。目前已熟练掌握服务端技术有C/C++、Python、Java、Go、Qt、Bash；数据库技术有Oracle、MySQL;前端技术有HTML/CSS、JS。
   - name: Raymond Roy
     image: images/clients/avater-1.jpg
     designation: CEO-Themefisher
