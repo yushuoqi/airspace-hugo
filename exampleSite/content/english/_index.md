@@ -72,6 +72,10 @@ funfacts:
     name: Combined Projects
     count: "200"
   testimonial_slider:
+  - name: holly
+    image: "/images/forest.jpg"
+    designation: 此网站的专属设计师
+    content: ''
   - name: yushuoqi
     image: "/images/yushuoqi.jpg"
     designation: 研发工程师
