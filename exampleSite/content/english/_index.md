@@ -76,23 +76,5 @@ funfacts:
     image: "/images/yushuoqi.jpg"
     designation: 研发工程师
     content: 此博客网站的作者，期望成为优秀的全栈工程师。目前已熟练掌握服务端技术有C/C++、Python、Java、Go、Qt、Bash；数据库技术有Oracle、MySQL、Redis;前端技术有HTML/CSS、JS。
-  - name: Raymond Roy
-    image: images/clients/avater-1.jpg
-    designation: CEO-Themefisher
-    content: This Company created an e-commerce site with the tools to make our business
-      a success, with innovative ideas we feel that our site has unique elements that
-      make us stand out from the crowd.
-  - name: Randi Renin
-    image: images/clients/avater-1.jpg
-    designation: CEO-Themefisher
-    content: This Company created an e-commerce site with the tools to make our business
-      a success, with innovative ideas we feel that our site has unique elements that
-      make us stand out from the crowd.
-  - name: Rose Rio
-    image: images/clients/avater-3.jpg
-    designation: CEO-Themefisher
-    content: This Company created an e-commerce site with the tools to make our business
-      a success, with innovative ideas we feel that our site has unique elements that
-      make us stand out from the crowd.
 
 ---
