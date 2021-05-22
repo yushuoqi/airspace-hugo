@@ -74,8 +74,8 @@ funfacts:
   testimonial_slider:
   - name: holly
     image: "/images/forest.jpg"
-    designation: 此网站的专属设计师
-    content: ''
+    designation: 专属设计师
+    content: 一位才华横溢的设计师
   - name: yushuoqi
     image: "/images/yushuoqi.jpg"
     designation: 研发工程师
