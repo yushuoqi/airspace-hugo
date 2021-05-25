@@ -4,7 +4,6 @@ bg_image = "/images/fantasy-1.webp"
 categories = ["Git"]
 date = 2021-05-24T16:00:00Z
 description = "正确的Git开发流程"
-draft = true
 image = "/images/fantasy-1.webp"
 tags = ["Git"]
 title = "Git Flow 开发流程规范"
@@ -59,19 +58,19 @@ git commit
 
 ## Fourth
 
-经过第3步，提交了几次后，就可以合并到develop分支完成功能开发。
+经过第3步，提交了几次后，就可以合并到develop分支完成功能开发，同时删除feature/#45678功能分支。
 
 \`\`\`
 
-git pull origin develop //先拉取develop中的代码，因为有可能别人已经往上提交过代码了
+git pull origin develop  //先拉取develop中的代码
 
-git checkout  develop//切到develop分支
+git checkout  develop  //切到develop分支
 
-git merge /**>//合并feature/**中的代码到develop中
+git merge feature/#45678>  //合并feature/#45678中的代码到develop中
 
 git push //提交到develop远程分支上
 
-git branch -d feature/** //删除本地的分支
+git branch -d feature/#45678  //删除本地的分支
 
 \`\`\`
 
@@ -81,7 +80,7 @@ git branch -d feature/** //删除本地的分支
 
 \`\`\`
 
-git checkout -b <本地分支名realse-0.1> <远程分支名develop>//注意这个realse-tagNo分支的功能是对发布的代码进行改善的地方
+git checkout -b <本地分支名realse-0.1> <远程分支名develop> //注意这个realse-tagNo分支的功能是对发布的代码进行改善的地方
 
 \`\`\`
 
@@ -89,19 +88,19 @@ git checkout -b <本地分支名realse-0.1> <远程分支名develop>//注意这�
 
 \`\`\`
 
-git checkout  master//切到master分支
+git checkout  master  //切到master分支
 
-git merge release-0.1//将release分支合到master上
+git merge release-0.1  //将release分支合到master上
 
-git push//将合完的代码提交到远程master
+git push  //将合完的代码提交到远程master
 
-git checkout develop//切到develop分支
+git checkout develop  //切到develop分支
 
-git merge release-01//将release分支上的代码合到develop分支上
+git merge release-01  //将release分支上的代码合到develop分支上
 
-git push//合完的代码推送到远程的develop分支
+git push  //合完的代码推送到远程的develop分支
 
-git branch -d release-01//删除本地release分支
+git branch -d release-01  //删除本地release分支
 
 \`\`\`
 
@@ -111,7 +110,7 @@ git branch -d release-01//删除本地release分支
 
 \`\`\`
 
-git tag -a 1.0.0-24 -m 'xxxxxx'
+git tag -a 1.0.0-24 -m 'add tag: 1.0.0-24'
 
 git push --tags
 
