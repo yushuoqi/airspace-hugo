@@ -34,3 +34,4 @@ fields:
   default: post
 pages:
 - exampleSite/content/english/blog/first-blog.md
+- exampleSite/content/english/blog/git-flow.md
